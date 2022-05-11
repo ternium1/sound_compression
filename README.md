@@ -20,3 +20,6 @@ or run `pip install mosqito matplotlib`
 
 # Running the code
 `python ./compresser.py`
+
+It will create a list of 2 files for each configured bitrates, one .mp3 for the file size comparisson and one .wav for the computation of the sound quality metrics.
+It will show one plot comparing the file size of the mp3 against the bitrate and another one comparing the bitrate against the "sharpness" metric using 4 different algorithms (din, aures, bismarck, fastl)

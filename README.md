@@ -11,3 +11,12 @@ When extracted add to the PATH the /bin folder.
 
 Then install ffmpeg-python:
 `pip install ffmpeg-python`
+
+Make sure the following dependecies are installed:
+* matplotlib
+* mosquito
+
+or run `pip install mosqito matplotlib`
+
+# Running the code
+`python ./compresser.py`

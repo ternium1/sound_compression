@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import ffmpeg, os, time
 from matplotlib import pyplot as plt
 from mosqito.sq_metrics import sharpness_din_st
